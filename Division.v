@@ -1,43 +1,6 @@
 
-Navigation Menu
-Gyanada10
-Floating-Point-ALU
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-Commit 1027e9c
-Gyanada10
-Gyanada10
-authored
-3 weeks ago
-Verified
-Create div_fpga_working.v
-main
-1 parent 
-2b8b102
- commit 
-1027e9c
-File tree
-Filter files…
-div_fpga_working.v
-1 file changed
-+162
--0
-lines changed
-Search within code
- 
-‎div_fpga_working.v‎
-+162
-Lines changed: 162 additions & 0 deletions
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,162 @@
 `timescale 1ns/1ps
+
 module fp_div (
     input  wire [63:0] a,     
     input  wire [63:0] b,     
@@ -163,6 +126,4 @@ module tb_fp_div;
         $finish;
     end
 endmodule
-0 commit comments
-Comments
-0
+
