@@ -67,8 +67,8 @@ wire Exception_wire = (&exp_a) | (&exp_b);
  // Sequential output update
 always @(*) begin
   if (enable) begin
-    Exception <= Exception_wire;
-    Result <= (Exception_wire) ? 64'd0 : {sign_final, norm_exp, norm_mant[51:0]};
+    Exception = Exception_wire;
+    Result = (Exception_wire) ? 64'd0 : {sign_final, norm_exp, norm_mant[51:0]};
   end
 end
 
