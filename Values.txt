@@ -1,21 +1,23 @@
-AND
+AND - 5
 12.34             → 64'h4028AE147AE147AE
 −56.78            → 64'hC04C63D70A3D70A4
 
-OR
+OR - 6
 0.25              → 64'h3FD0000000000000
 99.99             → 64'h4058FF5C28F5C28F
 
-XOR
+XOR - 7
 −3.50             → 64'hC00C000000000000
 45.67             → 64'h4046D70A3D70A3D7
 
-NOT A
+NOT A - 8
 −0.75             → 64'hBFE8000000000000
 
-Right_Shift A
+Left shift A - 9
+−120.45           → 64'hC05E1CCCCCCCCCCD
+
+Right_Shift A - 10
 8.20              → 64'h4020666666666666
 
-Left shift A
-−120.45           → 64'hC05E1CCCCCCCCCCD
+
 
